@@ -1,0 +1,16 @@
+* {
+    --cor1: #cb4aed;
+    --cor2: #f611ca;
+    --cor3: #4d45c7;
+    --cor4: #4f0778;
+    --cor5: #230230;
+}
+
+.navHeader a {
+    color: var(--cor4);
+}
+
+.navHeader a:hover {
+    transition: 0.4s;
+    letter-spacing: 3px;
+}
