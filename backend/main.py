@@ -15,6 +15,22 @@ def index():
     projeto = [{'nome': 'Melodia', 'tipo': 'Aplicativo de Música', 'versao': 'BETA', 'descricao': 'fansadkdsandaspdas'}]
     
     return render_template('index.html', projetos=projeto)
+
+@app.route('/logar')
+def logar():
+    pass
+
+@app.route('/login')
+def login():
+    pass
+
+@app.route('/registro')
+def registro():
+    pass
+
+@app.route('/dashboard')
+def dashboard():
+    pass
     
 if __name__ == '__main__':    
     app.run(debug=True, port=8000)
