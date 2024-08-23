@@ -12,7 +12,9 @@ Session(app)
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    projeto = [{'nome': 'Melodia', 'tipo': 'Aplicativo de Música', 'versao': 'BETA', 'descricao': 'fansadkdsandaspdas'}]
+    
+    return render_template('index.html', projetos=projeto)
     
 if __name__ == '__main__':    
     app.run(debug=True, port=8000)
