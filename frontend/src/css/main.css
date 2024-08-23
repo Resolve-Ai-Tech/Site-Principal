@@ -6,10 +6,6 @@
     --cor5: #230230;
 }
 
-.navHeader a {
-    color: var(--cor4);
-}
-
 .navHeader a:hover {
     transition: 0.4s;
     letter-spacing: 3px;
