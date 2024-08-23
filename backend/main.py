@@ -16,9 +16,9 @@ def index():
     
     return render_template('index.html', projetos=projeto)
 
-@app.route('/logar')
+@app.route('/userGeren')
 def logar():
-    pass
+    return render_template("logar.html")
 
 @app.route('/login')
 def login():
